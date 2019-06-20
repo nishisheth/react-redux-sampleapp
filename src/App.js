@@ -5,7 +5,6 @@ import { connect } from "react-redux";
 import { startAction } from "actions/startAction";
 import { stopAction } from "actions/stopAction";
 
-
 const mapStateToProps = state => ({
   ...state
 });
